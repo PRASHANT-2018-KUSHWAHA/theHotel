@@ -5,6 +5,7 @@
 .logo{
     width: 150px;
     height: 55px; 
+    float: right;
 }
 mat-toolbar{
     height: 96px;

@@ -1,0 +1,21 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+// Available color palettes: https://material.io/design/color/
+$theHotel-primary: mat-palette($mat-light-green , 300);
+$theHotel-accent:  mat-palette($mat-amber, 50);
+
+$theHotel-warn:    mat-palette($mat-red);
+
+$theHotel-theme: mat-light-theme($theHotel-primary, $theHotel-accent, $theHotel-warn);
+
+@include angular-material-theme($theHotel-theme);
+
+
+.navtab-container{
+    background-color: mat-color($theHotel-accent);
+}
+.sidenav-list{
+    background-color: mat-color($theHotel-primary); 
+}
