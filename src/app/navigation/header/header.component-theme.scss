@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+
+@mixin header-component-theme($theHotel) {
+    $primary: map-get($theHotel, primary );
+    $accent: map-get($theHotel, accent );
+
+    // all custom scss
+
+}

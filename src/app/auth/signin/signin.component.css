@@ -1,0 +1,15 @@
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signin-container > * {
+    width: 500px;
+    text-align: center center;
+  }
+  .container{
+      margin: 100px ;
+      align-items: center center;
+  }
+  

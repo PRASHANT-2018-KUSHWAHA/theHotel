@@ -1,3 +1,14 @@
-<p>
-  signin works!
-</p>
+
+<div class="container"> 
+  <div class="signin-container">
+    <mat-form-field>
+      <input matInput placeholder="Enter your email" [formControl]="email" required>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Enter your Password" [formControl]="password" required>
+    </mat-form-field>
+
+    <button class="signin-button" mat-raised-button >Sign In</button>
+  </div>
+</div>  

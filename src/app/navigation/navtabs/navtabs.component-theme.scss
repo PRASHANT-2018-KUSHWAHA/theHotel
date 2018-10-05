@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($theHotel) {
+    
+    $primary: map-get($theHotel, primary );
+    $accent: map-get($theHotel, accent );
+
+   // all custom scss
+    .navtab-container{
+        background-color: mat-color($theHotel-accent,50);
+    }
+}

@@ -1,14 +1,29 @@
 <div class="navtab-container">
-<nav mat-tab-navbar>
+<nav mat-tab-nav-bar>
   <span class="toolbar-flex"></span>
-  <mat-tab-group>
-      <mat-tab label="hello 1"></mat-tab>
-      <mat-tab label="hello 2"></mat-tab>
-      <mat-tab label="hello 3"></mat-tab>
-      <mat-tab label="hello 4"></mat-tab>
-      <mat-tab label="hello 5"></mat-tab>
-      <mat-tab label="hello 6"></mat-tab>
-  </mat-tab-group>
+    
+      <div class="inner-container">
+          <a mat-tab-link [routerLink]="['/']"
+          routerLinkActive="router-link-active"
+          >Home</a>
+
+          <a mat-tab-link [routerLink]="['/accomodation']"
+          routerLinkActive="router-link-active"
+          >Accomodation</a>
+
+          <a mat-tab-link [routerLink]="['/foodandbeverage']"
+          routerLinkActive="router-link-active"
+          >Food &amp; Beverage</a>
+
+          <a mat-tab-link [routerLink]="['/lifestyle']"
+          routerLinkActive="router-link-active"
+          >Lifestyle</a>
+
+          <a mat-tab-link [routerLink]="['/celebration']"
+          routerLinkActive="router-link-active"
+          >Celebration</a>
+      </div>
+      
   <span class="toolbar-flex"></span>
 </nav>
 </div>

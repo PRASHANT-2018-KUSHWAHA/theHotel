@@ -1,0 +1,20 @@
+@import '~@angular/material/theming';
+
+@mixin sidenav-list-component-theme($theHotel) {
+
+    $primary: map-get($theHotel, primary );
+    $assent: map-get($theHotel, assent );
+}
+
+// custom css comes here
+.sidenav-list{
+    background-color: mat-color($theHotel-primary,100); 
+}
+.mat-list-option:hover, 
+.mat-list-option.mat-list-item-focus, 
+.mat-nav-list .mat-list-item:hover, 
+.mat-nav-list .mat-list-item.mat-list-item-focus {
+
+    background-color: mat-color($theHotel-accent,50);
+    color: mat-color($theHotel-primary,700)
+}

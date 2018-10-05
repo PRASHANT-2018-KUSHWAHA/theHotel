@@ -1,0 +1,15 @@
+.Homecontainer{
+    background: url('../../assets//images/Swimming-Pool-1920-600.jpeg');
+    max-width: 1400px;
+    height: 100vh;
+	margin: 0 auto 0 auto;
+	padding: 0;
+}
+
+.book-nowocontainer{
+    width: 100px;
+    float: right;
+    padding: 0px;
+    margin: 50px 80px auto auto;
+
+}

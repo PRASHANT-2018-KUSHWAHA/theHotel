@@ -1,3 +1,25 @@
-<p>
-  signup works!
-</p>
+<div class="container"> 
+    <div class="signup-container">
+      <mat-form-field>
+        <input matInput placeholder="Full Name" [formControl]="fullName" required>
+      </mat-form-field>
+
+      <mat-form-field>
+          <input matInput placeholder="Aadhaan card Number" [formControl]="aadhaarNumber" required>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Enter your email" [formControl]="email" required>
+          </mat-form-field>
+  
+      <mat-form-field>
+          <input matInput placeholder="Enter your Password" [formControl]="password" required>
+      </mat-form-field>
+
+      <mat-form-field>
+          <input matInput placeholder="Enter Conform Password" [formControl]="conformPasword" required>
+        </mat-form-field>
+  
+      <button mat-raised-button color="primary">Sign Up</button>
+    </div>
+  </div>  

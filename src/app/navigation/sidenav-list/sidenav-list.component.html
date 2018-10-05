@@ -1,4 +1,11 @@
 <mat-nav-list class="sidenav-list"> 
+
+<a class="sidenav-list-items" mat-list-item routerLink="/" (click)="onToggleClose()">
+  <mat-icon>home</mat-icon>
+  <span>Home</span>
+</a>
+
+
  <a class="sidenav-list-items" mat-list-item routerLink="/signin" (click)="onToggleClose()">
   <mat-icon>input</mat-icon>
   <span>Signin</span>

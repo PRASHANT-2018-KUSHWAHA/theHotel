@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@mixin signin-component-theme($theHotel) {
+    $primary: map-get($theHotel, primary );
+    $accent: map-get($theHotel, accent );
+
+    // all custom scss
+  .signin-button{
+    background-color: mat-color($theHotel-primary,100);
+  }
+}
